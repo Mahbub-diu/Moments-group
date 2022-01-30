@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'century_gothicregular';
+}
+a,
+a:hover{
+    text-decoration: none;
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li{
+    list-style-type: none;
+
+}
+.container{
+    max-width: 1440px;
+}
+.fixed-top {
+    top: -40px;
+    transform: translateY(40px);
+    transition: transform .3s;
+}
+/* header top css start from here  */
+
+.header-top .navbar{
+    background-color: #fff;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5;
+    padding-left: 2rem;padding-right: 2rem;
+}
+
+.header-top .navbar .nav-item .nav-link{
+    padding-left: 10px;
+    padding-right:10px;
+    line-height: 3.75rem;
+    height: 100%;
+    padding-top: 0;padding-bottom: 0;
+    font-size: 13px;text-transform: uppercase;
+}
+
+.header-top .navbar .nav-item .nav-link.active{
+    font-weight: 600;
+}
+ 
+
+.header-top .navbar .navbar-brand{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin: 0;
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    font-family: 'din_condensedbold';text-transform: uppercase;font-size: 40px;
+}
+/* header top css end here  */
+
+/* main-navbar css start from here  */
+
+.main-navbar .navbar{
+    background-color: #fff;
+    padding: 0;
+    border-bottom: 1px solid #e5e5e5; 
+    padding-left: 2rem;padding-right: 2rem;position: relative;
+}
+.main-navbar .navbar .nav-item .nav-link{
+    padding-left: 10px;
+    padding-right:10px;
+    line-height: 3.75rem;
+    height: 100%;
+    padding-top: 0;padding-bottom: 0;
+    font-size: 13px;text-transform: uppercase;
+}
+.navbar .megamenu{ padding: 1rem; }
+ 
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+ 
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+
+.main-navbar .navbar .megamenu{
+    padding-left: 52px;padding-right: 52px;
+}
+.main-navbar .navbar .nav-item .nav-link.active{
+    font-weight: 600;
+}
+/* main-navbar css end here  */
+
+/* main  slider css start from here  */
+.main-slider{
+    margin: 50px 0;
+}
+
+.main-slider .slider-title h2{
+    font-family: 'din_condensedbold';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.main-slider .slider-title{
+    margin-bottom: 50px;
+}
+
+.main-slider .slider-banner img{
+    width: 100%;
+    min-height: 610px;
+}
+
+.main-slider .slider-description{
+    margin-top: 30px;
+}
+
+.main-slider .slider-description h2 a{
+    text-transform: uppercase;color: black;font-size: 22px;line-height: 30px;
+}
+.main-slider .slider-description .slider-btn-shop{
+    margin-top: 10px;
+    width: 14.0625rem;
+    text-transform: uppercase;
+    font-size: .8125rem;
+     color: white;
+    background: black;
+    border: none;padding: 0 2rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;display: inline-flex;
+}
+
+.main-slider .slider-description .slider-btn-shop:focus{
+    box-shadow: none;
+    outline: none;
+}
+.main-slider .slider-description .slider-btn-shop i{
+    margin-right: 10px;
+}
+.main-category{
+    margin-bottom: 50px;margin-top: 2rem;
+}
+.main-category .card{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #fff;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.main-category .card .card-body{
+    /* border: 1px solid #e5e5e5; */
+    padding: 0;
+}
+.main-category .card .card-body img{
+    
+    width: 100%;
+    min-height: 200px;
+}
+
+.main-category .card .card-footer{
+    background: none;  padding-left: 0;
+}
+.main-category .card .card-footer h3{
+ 
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin-bottom: 0;
+  
+}
+/* main slider css end here  */
+.common-title{
+    margin-bottom: 30px;
+}
+.common-title h2 {
+    font-family: 'din_condensedbold';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+
+.common-description{
+    margin-top: 30px;
+}
+.common-description h2 a{
+    text-transform: uppercase;
+    color: black;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
+.common-description .common-btn-shop {
+    margin-top: 10px;
+    width: 14.0625rem;
+    text-transform: uppercase;
+    font-size: .8125rem;
+    color: white;
+    background: black;
+    border: none;
+    padding: 0 2rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+.common-description .common-btn-shop i{
+    margin-right: 10px;
+}
+/* explore menu css start from here  */
+.explore-menu{
+      
+    height: 5.9375rem;  
+     border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    position: relative;
+}
+.explore-menu .navbar{
+    background-color: #fff;
+    padding: 0;
+    height: 100%;
+   
+}
+.explore-menu .navbar .navbar-brand{
+    padding: 0;
+    margin: 0; font-size: 12px;text-transform: capitalize; height: 100%;font-weight: 600;margin-right: 25px;
+}
+.explore-menu .navbar .nav-link{
+    padding-left: 10px;
+    padding-right:10px;
+ 
+    height: 100%;
+    padding-top: 0;padding-bottom: 0;
+    font-size: 12px;text-transform: capitalize;
+}
+
+/* explore menu css start from here  */
+
+
+/* footer css start from here  */
+.footer {
+    margin-bottom: 50px;
+  
+    padding-top: 50px;
+}
+.footer .container-fluid{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.footer h4{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer .form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border:none;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.footer .form-control:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.footer .nav-box{
+    margin-top: 50px;
+}
+.footer .nav-box .nav-link{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 10px;
+    padding-left: 0;
+    color: #000;
+    transition: width .32s ease,margin-left .32s ease;
+    -webkit-transition: width .32s ease,margin-left .32s ease;
+    -moz-transition: width .32s ease,margin-left .32s ease;
+    -ms-transition: width .32s ease,margin-left .32s ease;
+    -o-transition: width .32s ease,margin-left .32s ease;
+}
+/* footer css end here  */
+
