@@ -29,6 +29,13 @@ ul,li{
     transform: translateY(40px);
     transition: transform .3s;
 }
+
+.form-select:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;outline: none;
+}
 /* header top css start from here  */
 
 .header-top .navbar{
@@ -313,7 +320,7 @@ ul,li{
     font-size: 13px;
     text-transform: capitalize;
     font-weight: 300;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-left: 0;
     color: #000;
     transition: width .32s ease,margin-left .32s ease;
@@ -322,5 +329,335 @@ ul,li{
     -ms-transition: width .32s ease,margin-left .32s ease;
     -o-transition: width .32s ease,margin-left .32s ease;
 }
+
+.footer .nav-box .form-select{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-color: #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 0;
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+}
 /* footer css end here  */
 
+/* category page css start from here  */
+
+.category-overview{
+    margin:50px
+}
+.category-overview h2{
+    font-family: 'din_condensedbold';
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.category-overview .overview-description{
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-width: 30%;
+   text-align: center;
+}
+.category-overview .overview-description p{
+    font-size:13px;line-height: 21px;text-align: center;
+}
+
+.category-sorting{
+    margin-bottom: 120px;
+   height: 3.75rem;position: relative;
+  
+    
+}
+.category-sorting .container-border{
+    border: 1px solid #e5e5e5; 
+    border-left: none;border-right: none;
+    height: 3.75rem;
+}
+.category-sorting .form-select{
+
+    border-radius: 0;
+    font-size: 13px;
+    text-transform: uppercase; 
+}
+
+.category-sorting .sorting-navbar .nav-link{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 0px;
+    padding: 0 1.25rem;
+    color: #000;
+    transition: width .32s ease,margin-left .32s ease;
+    -webkit-transition: width .32s ease,margin-left .32s ease;
+    -moz-transition: width .32s ease,margin-left .32s ease;
+    -ms-transition: width .32s ease,margin-left .32s ease;
+    -o-transition: width .32s ease,margin-left .32s ease;
+}
+
+.category-sorting .sorting-navbar .nav-link.dropdown-toggle::after{
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: '\f078';
+    border: none;
+    vertical-align: 0px;
+    font-size: 11px;
+}
+.category-sorting .sorting-navbar .nav-link.show.dropdown-toggle::after{
+ content: '\f077';
+}
+.category-sorting .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 38px;
+    right: 0;
+    left: unset;
+}
+
+.category-sorting .form-check-input{
+    margin-right: 10px;
+}
+.category-sorting .form-check-input:focus{
+    box-shadow: none;
+}
+
+.category-sorting .dropdown-item{
+    font-size: 13px;
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-bottom: 0px;
+ 
+    color: #000;
+    transition: width .32s ease,margin-left .32s ease;
+    -webkit-transition: width .32s ease,margin-left .32s ease;
+    -moz-transition: width .32s ease,margin-left .32s ease;
+    -ms-transition: width .32s ease,margin-left .32s ease;
+    -o-transition: width .32s ease,margin-left .32s ease;
+}
+
+.category-sorting .form-check-input {
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+
+.nav-border{
+    position: relative;
+}
+
+.nav-border::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1px;
+    height: 100%;
+    background-color:  #e5e5e5;
+}
+.nav-border::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color:  #e5e5e5;
+}
+
+.category-sorting i{
+    font-size: 20px;
+}
+
+.nav-right-border{
+    position: relative;
+}
+.nav-right-border::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color:  #e5e5e5;
+}
+.btn-reset-filter{
+    margin-top: 10px;
+    width: auto;
+    text-transform: capitalize;
+    font-size: .8125rem;
+    color: white;
+    background: black;
+    border: none;
+    padding: 0 2rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+}
+.shop-main {
+    margin: 50px 0px;
+}
+.shop-main .card{
+    border: none;
+    margin-bottom: 20px;
+}
+.shop-main .card .card-body{
+    padding: 0;
+    position: relative;
+}
+.shop-main .card .card-body img{
+    width: 100%;
+}
+.shop-main .card .card-footer{
+    display: flex;
+    flex-wrap: wrap;
+    background: #fff;
+    border: none;
+    padding: 15px 0px;
+    align-items: center;
+}
+
+.shop-main .card .card-footer .price-details{
+    flex-basis: 75%;
+}
+
+.shop-main .card .card-footer .addshop{
+    flex-basis: 25%;
+}
+.shop-main .card .card-footer .price-details h5{
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    color: black;
+    margin-bottom: 0.125rem;text-transform: capitalize;font-weight: 600;   margin-bottom: 5px;
+}
+
+.shop-main .card .card-footer .price-details p.desc{
+    font-size: 13px;
+    line-height: 21px;font-weight: 400;color: #000;text-transform: capitalize;margin-bottom: 5px;
+}
+
+
+.shop-main .card .card-footer .price-details p.price{
+    font-size: 13px;
+    line-height: 21px;font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.shop-main .card .card-footer .addshop{
+   text-align: end;
+}
+
+.shop-main .card .card-footer .addshop a.addto-shop{
+    border: 1px solid #e5e5e5;
+    color: #000;
+    height: 50px;
+    width: 50px;
+    border-radius:50% ;
+    -webkit-border-radius:50% ;
+    -moz-border-radius:50% ;
+    -ms-border-radius:50% ;
+    -o-border-radius:50% ;
+    text-align: center;
+
+}
+.shop-main .card .card-footer .addshop a.addto-shop i{
+    padding-top: 9px;
+    font-size: 17px;
+}
+
+.shop-main .card .card-body a i{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 17PX;
+    color: #000;
+}
+
+
+/* category page csss end here  */
+
+/* product details page css start from here  */
+.details-main{
+    margin: 30px 0px;
+}
+
+.details-main .productzoom-main{
+    min-height: 200px;
+}
+.details-main .productzoom-main li.nav-item{
+    flex-basis: 50%;padding: 0 0.625rem 0.625rem;
+    cursor: zoom-in;
+}
+.details-main .productzoom-main li.nav-item:nth-child(1){
+    flex-basis: 100%;
+}
+.details-main .productzoom-main li.nav-item img{
+  width: 100%;
+}
+h3.suggestion{
+    text-align: center;font-size: 16px;line-height: 24px;font-weight: 400;text-transform: uppercase;margin-bottom: 20px;
+}
+ .suggesion-border{
+    border-bottom: 1px solid #e5e5e5;
+ }
+ .suggesion-border .card .card-footer .price-details{
+     flex-basis: 100%;
+ }
+ .details-pricebox{
+     margin-left: 56px;
+ }
+
+ .details-pricebox h5.product-status{
+     text-transform: capitalize;color: #757575; 
+     font-size: .8125rem;    margin-bottom: 0.1875rem;
+     line-height: 1.3125rem;
+ }
+
+ .details-pricebox h2.product-title{
+    font-size: 22px;
+ 
+    text-transform: uppercase;font-weight: 400;margin-bottom: 10px;
+}
+
+.details-pricebox p.product-desc{
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #757575;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.details-pricebox p.reference{
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.size-selection{
+    margin-left: 56px;
+}
+/* product details page css end here  */
