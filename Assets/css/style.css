@@ -40,6 +40,16 @@ ul,li{
 .btn-close:focus{
     box-shadow: none;outline: none;
 }
+.form-check-input:focus{
+    box-shadow: none;outline: none;
+}
+.form-check-input[type="checkbox"]{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
 /* header top css start from here  */
 
 .header-top .navbar{
@@ -1094,3 +1104,318 @@ p.t-c a{
         cursor: pointer;
       }
 /* sidebar css end here  */
+
+/* checkout page start from here  */
+
+.checkout-main{
+   
+    margin: 20px 0px;
+}
+
+.checkout-main .checkout-bg{
+    color: #000;
+    background-color: #cecece;height: 4.375rem;text-align: center;display: flex;align-items: center;justify-content: center;margin-bottom: 20px;
+}
+
+.checkout-main .checkout-bg p{
+    margin-bottom: 0;
+    padding: 0 1.25rem;
+    text-align: center;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+}
+
+.checkout-main .order-main{
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.checkout-main .order-main .card{
+    border: none;
+}
+.checkout-main .order-main .card .card-body{
+    padding-right: 5px;
+}
+.checkout-main .order-main .card h5 a{
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    color: black;
+    margin-bottom: 0.125rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.checkout-main .order-main .card p.desc{
+    font-size: 11px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.checkout-main .order-main .card p.price{
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.checkout-main .order-main .card .price-quantity {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    flex-wrap: wrap;
+}
+
+.checkout-main .order-main .card .price-quantity .price-box {
+    flex-basis: 70%;
+}
+.checkout-main .order-main .card .price-quantity .quantity-box{
+    flex-basis: 30%;text-align: right;
+}
+.checkout-main .order-main .card p.quantity {
+    text-transform: capitalize;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    margin-bottom: 5px;
+}
+
+.checkout-main .order-main .card a.remove{
+    text-decoration: underline;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.checkout-main .order-total{
+    background-color: #f6f6f6;
+    padding: 1.25rem;
+    box-sizing: border-box;
+    border-radius: .3125rem;
+    margin-bottom: 1.25rem;
+}
+
+.checkout-main .order-total h2{
+    font-size: .8125rem;
+    line-height: 1.25rem;text-transform: uppercase;font-weight: 400;
+    color: #000;
+    margin-bottom: 5+px;
+}
+
+.checkout-main .order-total .table tr td:nth-child(odd){
+    width: 60%;padding-left: 0;
+    font-size: .8125rem;
+    line-height: 1.3125rem;color: #000;text-transform: capitalize;
+    
+}
+
+.checkout-main .order-total .table tr td:nth-child(even){
+   text-align: right;
+   font-size: .8125rem;
+    line-height: 1.3125rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.checkout-main .order-total .table tr .total-td{
+    text-transform: uppercase !important;
+    font-weight: 600;
+}
+
+.checkout-main .order-total .table tr:last-child td{
+ border: none;
+}
+
+.checkout-main .order-total p{
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    color: #000;
+    margin-bottom: 0;
+}
+
+.checkout-main .need-assitance-main{
+    border: 1px solid #cecece;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.checkout-main .need-assitance-main h2{
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    color: #000;
+    text-transform: uppercase !important;
+    font-weight: 600;
+}
+
+.checkout-main .need-assitance-main p.asst-desc{
+    margin-top: .8125rem;
+    font-size: .8125rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.checkout-main .need-assitance-main a.contact-bymail{
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 400;
+    border: 1px solid #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.checkout-main .need-assitance-main .asst-des-main{
+    margin-bottom: 30px;
+}
+.checkout-main .need-assitance-main .asst-des-main:last-child{
+    margin-bottom: 0;
+}
+
+  .checkout-main .common-inputsection{
+    text-align: right;
+}  
+
+.checkout-main .common-inputsection h2{
+    color: black;font-size: 14px;
+    text-transform: uppercase;font-weight: 400;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e5e5e5;text-align: left;
+}
+
+.checkout-main .common-inputsection p.edit-info{
+    font-size: .8125rem;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 400;text-decoration: underline; 
+    margin-bottom: 20px;cursor: pointer;
+
+}
+
+.checkout-main .common-inputsection .information-box{
+    text-align: left;
+    margin-bottom: 20px;
+}
+.checkout-main .common-inputsection .information-box label{
+    margin-bottom: 1.25rem;font-size: .8125rem;
+    line-height: 1.3125rem;font-weight: 400;
+}
+
+.checkout-main .common-inputsection .information-box .form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top: none;border-left: none;border-right: none;font-size: 14px;padding-left: 0;
+}
+.checkout-main .common-inputsection .information-box .form-select{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top: none;border-left: none;border-right: none;font-size: 14px;padding-left: 0;
+}
+.checkout-main .common-inputsection .information-box label{
+    text-transform: capitalize;
+}
+.checkout-main .common-inputsection .information-box .btn-submit{
+    color: white;
+    background-color: black;width: 100%;justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    padding: 0 2rem;text-transform: capitalize;
+}
+
+.common-inputsection .gift-box{
+    background: url(../images/gift.webp) no-repeat;
+    background-size: cover;
+    min-height: 270px;width: 100%;
+    background-position: bottom;
+    margin-bottom: 20px;box-sizing: border-box;
+    padding: .75rem 1.25rem .75rem 50%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.common-inputsection .gift-box .btns-group .btn{
+    display: block;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 20px;
+    min-width: 160px;
+    padding-top: 8px;padding-bottom: 8px;
+    font-size: 14px;
+}
+.common-inputsection .gift-box .btns-group .btn:nth-child(1){
+    background-color: #000;
+    color: white;
+
+}
+
+.common-inputsection .gift-box .btns-group .btn:nth-child(2){
+    background:none;
+    border-color: #000;
+    margin-bottom: 0;
+    color: #000;
+}
+
+.checkout-main .common-inputsection .information-box .form-control:focus{
+    box-shadow: none;outline: none;border-color: #000; 
+}
+
+.checkout-main .common-inputsection .information-box .chekbox-section{
+    margin: 50px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+/* checkout  page end here  */

@@ -39,3 +39,9 @@ document.addEventListener("DOMContentLoaded", function(){
         });
 
         // sidebar show hide end 
+        function test(el){
+ 
+          el.nextSibling.nextElementSibling.classList.toggle('d-none');
+ 
+        }
+        // checkout page div show hide end 
