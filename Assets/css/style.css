@@ -1410,12 +1410,127 @@ p.t-c a{
 }
 
 
-
-
-
-
-
-
-
-
 /* checkout  page end here  */
+
+/* contact us page start from here  */
+.wrtie-us{
+    margin-bottom: 50px;
+}
+.wrtie-us .writeus-box{
+    border: 0.0625rem solid #cecece;
+    border-radius: 0.3125rem;
+    padding: 20px 200px;
+}
+.wrtie-us .writeus-box .form-select {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 0;
+}
+.wrtie-us .writeus-box .form-control{
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 0;
+}
+.wrtie-us .writeus-box label{
+    margin-bottom: 1.25rem;
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+.wrtie-us .writeus-box .form-control:focus{
+    box-shadow: none;
+    outline: none;
+    border-color: #000;
+}
+
+.wrtie-us .writeus-box form.contactus-form h4{
+    font-size: .8125rem;
+    line-height: 1.25rem;font-size: .8125rem;
+    line-height: 1.25rem;text-transform: uppercase;font-weight: 600;
+}
+
+.wrtie-us .writeus-box form.contactus-form h4 i{
+    padding-right: 15px;
+}
+.wrtie-us .writeus-box form.contactus-form p{
+    font-size: .6875rem;
+    line-height: 1.1875rem;
+    color: #757575;
+    margin: 0 0 1.5rem
+
+}
+
+.wrtie-us .writeus-box form.contactus-form .btn{
+    width: 11.25rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem auto;
+    background: #000;color:#fff;
+    border-color: #000;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    padding: 0 2rem;
+}
+
+
+.contact-us-box .contact-us-box-item{
+    border: 1px solid #cecece;
+    border-radius: 0.3125rem;
+    padding: 20px;min-height: 300px;
+    margin-bottom: 50px;
+}
+
+.contact-us-box .contact-us-box-item h4{
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    color: black;text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.contact-us-box .contact-us-box-item h4 i{
+    padding-right: 15px;
+}
+.contact-us-box .contact-us-box-item p{
+    font-size: .8125rem;
+    line-height: 1.3125rem;
+    color: black;
+}
+
+.contact-us-box .contact-us-box-item .btn{
+ 
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1.5rem auto;
+    background: #000;
+    color: #fff;
+    border-color: #000;
+    height: 3rem;
+    border-radius: 1.5rem;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+    padding: 0 2rem;
+}
+
+
+
+
+
+/* contact us page end here  */
