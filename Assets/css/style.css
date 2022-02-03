@@ -1534,3 +1534,110 @@ p.t-c a{
 
 
 /* contact us page end here  */
+
+/* cart page start from here  */
+
+.cart-main{
+    margin: 50px 0px;
+}
+.cart-main .container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+.cart-main .card{
+    margin-bottom: 10px;
+    border: none;
+}
+.cart-main .card h5 a{
+    color: #121314;
+  
+    font-size: 13px;
+    font-weight: 600 !important;
+    font-weight: normal;
+    letter-spacing: .3px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    flex-basis: 50%;
+}
+.cart-main .card h5 {
+    color: #121314;
+  
+    font-size: 13px;
+    font-weight: 600 !important;
+    font-weight: normal;
+    letter-spacing: .3px;
+    line-height: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    flex-basis: 50%;
+}
+
+.cart-main .card-body .products-namebox{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cart-main .card-body p.qty{
+    color: #121314;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    letter-spacing: .3px;
+   
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.cart-main .card-body a.remove-product{
+    color: #ff5252;
+    
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: .3px;
+    line-height: 16px;
+}
+.cart-main h3.shopping-bag{
+    color: #121314;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: .3px;
+    line-height: 28px;
+    margin-bottom: 1.1rem;
+    text-transform: capitalize;
+}
+.cart-main .summary-box{
+    padding: 20px;
+    border: 1px solid #e5e5e5;;
+}
+.cart-main .summary-box tr td{
+    text-transform: capitalize;
+    color: #121314;
+     padding: 5px 10px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: capitalize;
+ 
+}
+.cart-main .summary-box tr td:nth-child(2){
+    text-align: right;
+}
+.cart-main .summary-box tr td:nth-child(1){
+    width: 70%;
+}
+.cart-main .summary-box tr td.bold{
+    font-weight: 600;text-transform: uppercase;
+    /* border-top: 1px solid #cecece !important; */
+}
+.cart-main .summary-box .table{
+    margin-bottom: 0;
+}
+.cart-main .summary-box .table tr{
+    border: none;
+}
+.cart-main .summary-box .table tr td{
+    border: none;
+}
+/* cart page end here  */
